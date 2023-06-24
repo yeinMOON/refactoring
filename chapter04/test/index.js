@@ -3,13 +3,16 @@ import Province from "../Province.js";
 import sampleProvinceData from "../sampleProvinceData.js";
 
 describe("province", () => {
+  let asia;
+  beforeEach(() => {
+    asia = new Province(sampleProvinceData());
+  });
+
   it("shortfall", () => {
-    const asia = new Province(sampleProvinceData());
     expect(asia.shortfall).equal(5);
   });
-});
 
-describe("profit", () => {
-  const asia = new Province(sampleProvinceData());
-  expect(asia.profit).equal(230);
+  it("profit", () => {
+    expect(asia.profit).equal(230);
+  });
 });
