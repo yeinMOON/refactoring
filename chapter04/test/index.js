@@ -1,6 +1,6 @@
-import { assert, expect } from "chai";
-import Province from "../04-02/Province.js";
-import sampleProvinceData from "../04-02/sampleProvinceData.js";
+import { expect } from "chai";
+import Province from "../Province.js";
+import sampleProvinceData from "../sampleProvinceData.js";
 
 describe("province", () => {
   it("shortfall", () => {

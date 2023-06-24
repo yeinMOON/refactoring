@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "test": "mocha 04-03/test.js"
+    "test": "mocha test/index.js"
   },
   "type": "module",
   "devDependencies": {
