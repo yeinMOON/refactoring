@@ -8,8 +8,6 @@ function setDefaultOwner(arg) {
   defaultOwner = arg;
 }
 
-spaceship.owner = getDefaultOwner();
-
 class Person {
   constructor(data) {
     this._lastName = data.lastName;

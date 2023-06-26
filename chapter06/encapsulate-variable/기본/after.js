@@ -8,4 +8,4 @@ function handleDefaultOwner(arg) {
   defaultOwner = arg;
 }
 
-spaceship.owner = getDefaultOwner();
+spaceship.owner = defaultOwner();
